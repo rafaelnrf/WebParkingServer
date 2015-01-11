@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D5985D21A62A3350001734E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5985D11A62A3350001734E /* main.m */; };
+		9D5985D51A62A3350001734E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5985D41A62A3350001734E /* AppDelegate.m */; };
+		9D5985D81A62A3350001734E /* WebParkingServer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D5985D61A62A3350001734E /* WebParkingServer.xcdatamodeld */; };
+		9D5985DB1A62A3350001734E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5985DA1A62A3350001734E /* ViewController.m */; };
+		9D5985DE1A62A3350001734E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5985DC1A62A3350001734E /* Main.storyboard */; };
+		9D5985E01A62A3350001734E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5985DF1A62A3350001734E /* Images.xcassets */; };
+		9D5985E31A62A3350001734E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5985E11A62A3350001734E /* LaunchScreen.xib */; };
+		9D5985EF1A62A3350001734E /* WebParkingServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5985EE1A62A3350001734E /* WebParkingServerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D5985E91A62A3350001734E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D5985C41A62A3350001734E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D5985CB1A62A3350001734E;
+			remoteInfo = WebParkingServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D5985CC1A62A3350001734E /* WebParkingServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebParkingServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5985D01A62A3350001734E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5985D11A62A3350001734E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D5985D31A62A3350001734E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D5985D41A62A3350001734E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D5985D71A62A3350001734E /* WebParkingServer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebParkingServer.xcdatamodel; sourceTree = "<group>"; };
+		9D5985D91A62A3350001734E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D5985DA1A62A3350001734E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D5985DD1A62A3350001734E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D5985DF1A62A3350001734E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D5985E21A62A3350001734E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9D5985E81A62A3350001734E /* WebParkingServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebParkingServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5985ED1A62A3350001734E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5985EE1A62A3350001734E /* WebParkingServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebParkingServerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5985C91A62A3350001734E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5985E51A62A3350001734E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D5985C31A62A3350001734E = {
+			isa = PBXGroup;
+			children = (
+				9D5985CE1A62A3350001734E /* WebParkingServer */,
+				9D5985EB1A62A3350001734E /* WebParkingServerTests */,
+				9D5985CD1A62A3350001734E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D5985CD1A62A3350001734E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D5985CC1A62A3350001734E /* WebParkingServer.app */,
+				9D5985E81A62A3350001734E /* WebParkingServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D5985CE1A62A3350001734E /* WebParkingServer */ = {
+			isa = PBXGroup;
+			children = (
+				9D5985D31A62A3350001734E /* AppDelegate.h */,
+				9D5985D41A62A3350001734E /* AppDelegate.m */,
+				9D5985D91A62A3350001734E /* ViewController.h */,
+				9D5985DA1A62A3350001734E /* ViewController.m */,
+				9D5985DC1A62A3350001734E /* Main.storyboard */,
+				9D5985DF1A62A3350001734E /* Images.xcassets */,
+				9D5985E11A62A3350001734E /* LaunchScreen.xib */,
+				9D5985D61A62A3350001734E /* WebParkingServer.xcdatamodeld */,
+				9D5985CF1A62A3350001734E /* Supporting Files */,
+			);
+			path = WebParkingServer;
+			sourceTree = "<group>";
+		};
+		9D5985CF1A62A3350001734E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5985D01A62A3350001734E /* Info.plist */,
+				9D5985D11A62A3350001734E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D5985EB1A62A3350001734E /* WebParkingServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D5985EE1A62A3350001734E /* WebParkingServerTests.m */,
+				9D5985EC1A62A3350001734E /* Supporting Files */,
+			);
+			path = WebParkingServerTests;
+			sourceTree = "<group>";
+		};
+		9D5985EC1A62A3350001734E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5985ED1A62A3350001734E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D5985CB1A62A3350001734E /* WebParkingServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5985F21A62A3350001734E /* Build configuration list for PBXNativeTarget "WebParkingServer" */;
+			buildPhases = (
+				9D5985C81A62A3350001734E /* Sources */,
+				9D5985C91A62A3350001734E /* Frameworks */,
+				9D5985CA1A62A3350001734E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebParkingServer;
+			productName = WebParkingServer;
+			productReference = 9D5985CC1A62A3350001734E /* WebParkingServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D5985E71A62A3350001734E /* WebParkingServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5985F51A62A3350001734E /* Build configuration list for PBXNativeTarget "WebParkingServerTests" */;
+			buildPhases = (
+				9D5985E41A62A3350001734E /* Sources */,
+				9D5985E51A62A3350001734E /* Frameworks */,
+				9D5985E61A62A3350001734E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D5985EA1A62A3350001734E /* PBXTargetDependency */,
+			);
+			name = WebParkingServerTests;
+			productName = WebParkingServerTests;
+			productReference = 9D5985E81A62A3350001734E /* WebParkingServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D5985C41A62A3350001734E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rafael Nonato Ribeiro Ferreira";
+				TargetAttributes = {
+					9D5985CB1A62A3350001734E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9D5985E71A62A3350001734E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9D5985CB1A62A3350001734E;
+					};
+				};
+			};
+			buildConfigurationList = 9D5985C71A62A3350001734E /* Build configuration list for PBXProject "WebParkingServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D5985C31A62A3350001734E;
+			productRefGroup = 9D5985CD1A62A3350001734E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D5985CB1A62A3350001734E /* WebParkingServer */,
+				9D5985E71A62A3350001734E /* WebParkingServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D5985CA1A62A3350001734E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5985DE1A62A3350001734E /* Main.storyboard in Resources */,
+				9D5985E31A62A3350001734E /* LaunchScreen.xib in Resources */,
+				9D5985E01A62A3350001734E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5985E61A62A3350001734E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D5985C81A62A3350001734E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5985D51A62A3350001734E /* AppDelegate.m in Sources */,
+				9D5985D21A62A3350001734E /* main.m in Sources */,
+				9D5985DB1A62A3350001734E /* ViewController.m in Sources */,
+				9D5985D81A62A3350001734E /* WebParkingServer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5985E41A62A3350001734E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5985EF1A62A3350001734E /* WebParkingServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D5985EA1A62A3350001734E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D5985CB1A62A3350001734E /* WebParkingServer */;
+			targetProxy = 9D5985E91A62A3350001734E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D5985DC1A62A3350001734E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5985DD1A62A3350001734E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D5985E11A62A3350001734E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5985E21A62A3350001734E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D5985F01A62A3350001734E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D5985F11A62A3350001734E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D5985F31A62A3350001734E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebParkingServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D5985F41A62A3350001734E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebParkingServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D5985F61A62A3350001734E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebParkingServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebParkingServer.app/WebParkingServer";
+			};
+			name = Debug;
+		};
+		9D5985F71A62A3350001734E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebParkingServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebParkingServer.app/WebParkingServer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D5985C71A62A3350001734E /* Build configuration list for PBXProject "WebParkingServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5985F01A62A3350001734E /* Debug */,
+				9D5985F11A62A3350001734E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5985F21A62A3350001734E /* Build configuration list for PBXNativeTarget "WebParkingServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5985F31A62A3350001734E /* Debug */,
+				9D5985F41A62A3350001734E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D5985F51A62A3350001734E /* Build configuration list for PBXNativeTarget "WebParkingServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5985F61A62A3350001734E /* Debug */,
+				9D5985F71A62A3350001734E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D5985D61A62A3350001734E /* WebParkingServer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D5985D71A62A3350001734E /* WebParkingServer.xcdatamodel */,
+			);
+			currentVersion = 9D5985D71A62A3350001734E /* WebParkingServer.xcdatamodel */;
+			path = WebParkingServer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9D5985C41A62A3350001734E /* Project object */;
+}
