@@ -7,8 +7,31 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MenuController.h"
+#import "Visao2ViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    
+    
+    UITextField *campo_login;
+    UITextField *campo_senha;
+    
+}
+
+
+
+@property (nonatomic, strong) IBOutlet UITextField *campo_login;
+@property (nonatomic, strong) IBOutlet UITextField *campo_senha;
+
+
+
+-(IBAction) chamaBotaoEntrar;
+-(void) chamaTelaMenu;
+-(IBAction)chamaStoryBoard;
+
+
+
 
 
 @end
